@@ -1,0 +1,89 @@
+*{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    font-family: impact;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+body{
+    background-color: lightgrey;
+
+}
+.container1{
+    background-color: white;
+width: 25%;
+height: 200px;
+border-radius: 23px;
+margin-left: 200px;
+padding-top: 20px;
+margin-top: 150px;
+
+}
+.container2{
+    background-color: white;
+    width: 25%;
+    height: 150px;
+    border-radius: 23px;
+    margin-left: 200px;
+padding-top: 20px;
+margin-top: 10px;
+}
+.container3{
+    background-color: white;
+    width: 25%;
+    height: 200px;
+    border-radius: 23px;
+    margin-left: 200px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+.container4{
+    background-color: white;
+    width: 25%;
+    height: 350px;
+    border-radius: 23px;
+    margin-left: 690px;
+position: absolute;
+margin-top: 150px;
+}
+.container5{
+    background-color: white;
+    width: 25%;
+    height: 200px;
+    border-radius: 23px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 74rem;
+}
+.container6{
+    background-color: white;
+    width: 25%;
+    height: 130px;
+    border-radius: 23px;
+    position: absolute;
+    margin-top:23rem;
+    margin-left: 74rem;
+}
+
+.monet{
+    display: flex;
+    margin-left: 25%;
+}
+.monett{
+    display: flex;
+margin-left: 25%;
+
+}
+input{
+    border-radius: 5px;
+}
+.xpp{
+    margin-left: 10%;
+    margin-top: 70px;
+}
+.xpp input{
+    width: 30%;
+
+}
