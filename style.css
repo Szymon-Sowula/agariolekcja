@@ -2,7 +2,7 @@
     top: 0;
     padding: 0;
     margin: 0;
-    font-family: impact;
+    font-family:Arial, Helvetica, sans-serif;
     list-style-type: none;
     text-decoration: none;
     color: black;
@@ -13,35 +13,35 @@ body{
 }
 .container1{
     background-color: white;
-width: 25%;
+width: 20%;
 height: 200px;
 border-radius: 23px;
-margin-left: 200px;
+margin-left: 280px;
 padding-top: 20px;
 margin-top: 150px;
 
 }
 .container2{
     background-color: white;
-    width: 25%;
+    width: 20%;
     height: 150px;
     border-radius: 23px;
-    margin-left: 200px;
+    margin-left: 280px;
 padding-top: 20px;
 margin-top: 10px;
 }
 .container3{
     background-color: white;
-    width: 25%;
+    width: 20%;
     height: 200px;
     border-radius: 23px;
-    margin-left: 200px;
+    margin-left: 280px;
     padding-top: 20px;
     margin-top: 10px;
 }
 .container4{
     background-color: white;
-    width: 25%;
+    width: 20%;
     height: 350px;
     border-radius: 23px;
     margin-left: 690px;
@@ -50,21 +50,21 @@ margin-top: 150px;
 }
 .container5{
     background-color: white;
-    width: 25%;
+    width: 20%;
     height: 200px;
     border-radius: 23px;
     position: absolute;
     margin-top: 150px;
-    margin-left: 74rem;
+    margin-left: 68rem;
 }
 .container6{
     background-color: white;
-    width: 25%;
+    width: 20%;
     height: 130px;
     border-radius: 23px;
     position: absolute;
     margin-top:23rem;
-    margin-left: 74rem;
+    margin-left: 68rem;
 }
 
 .monet{
@@ -76,8 +76,13 @@ margin-top: 150px;
 margin-left: 25%;
 
 }
+a.userr{
+   padding-left: 30px;
+   position: absolute;
+padding-top: 170px;
+}
 input{
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .xpp{
     margin-left: 10%;
@@ -86,4 +91,163 @@ input{
 .xpp input{
     width: 30%;
 
+}
+
+/* kontener z dwoma elementami zielony i zołty na srodku napis offers  */
+.greembox{
+    background-color: green;
+    padding: 15px;
+}
+.yellowbox{
+    background-color: yellow;
+   padding: 15px;
+    margin-left: 3rem;
+    
+
+}
+.greenyellow{
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+    padding-top: 50px;
+}
+.offers{ 
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.boxsection1{
+    display: flex;
+    flex-direction: row;
+   text-align: center;
+    justify-content: space-around;
+    
+}
+.bluebox1{
+    background-color: #00d3ff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.bluebox2{
+    background-color: #00d3ff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.bluebox3{
+    background-color: #00d3ff;
+    padding: 5px;
+    border-radius: 4px;
+}
+.bluebox4{
+    background-color: #00d3ff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+
+.boxsection2{
+    display: flex;
+    flex-direction: row;
+    padding-top: 4.5rem;
+    text-align: center;
+    justify-content: space-around;
+}
+.greenbox1{
+    background-color: #54c800;
+    padding: 8px;
+    border-radius: 4px;
+}
+.greenbox2{
+    background-color: #54c800;
+    padding: 8px;
+    border-radius: 4px;
+}
+.greenbox3{
+    background-color: #54c800;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* srodkowy kontener */
+
+
+
+
+
+
+/* --------- */
+
+/* prawy 1 kontener */
+.h2text{
+    text-align: center;
+}
+.boxcont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.boxgamemode1{
+    background-color: #ff0000;
+    display: flex;
+   flex-direction: column-reverse;
+    text-align: center;
+    width: 25%;
+    height:150px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.boxgamemode1:hover{
+    background-color: #721313;
+}
+.boxgamemode1 a{
+  padding-bottom: 10px;
+}
+.boxgamemode2 a{
+    padding-bottom: 10px;
+  }
+  .boxgamemode3 a{
+    padding-bottom: 10px;
+  }
+.boxgamemode2{
+    background-color: #1969ff;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 25%;
+    height:150px;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+.boxgamemode2:hover{
+    background-color: #223b68;
+}
+
+.boxgamemode3{
+    background-color: #00ff22a9;
+   display: flex;
+   flex-direction: column-reverse;
+   padding: 5px;
+    text-align: center;
+    width: 25%;
+    height:150px;
+    border-radius: 8px;
+    
+}
+.boxgamemode3:hover{
+    background-color: #001f04a9;
 }
